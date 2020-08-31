@@ -1,6 +1,6 @@
 name: "Hello Actions"
 description: "Greet someone"
-author: "DJB"
+author: "octocat@github.com"
 
 inputs:
   MY_NAME:
@@ -8,7 +8,7 @@ inputs:
     required: true
     default: "World"
 
-RUN:
+runs:
   using: "docker"
   image: "Dockerfile"
 
