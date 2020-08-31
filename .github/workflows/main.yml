@@ -6,6 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - run: action-a
+      - run: ./action-a
         with:
           MY_NAME: "David"
